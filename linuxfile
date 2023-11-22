@@ -1,0 +1,12 @@
+
+# Command and their	Description	
+ls	Lists all files and directories in the present working directory
+ls -R	Lists files in sub-directories as well
+ls -a	Lists hidden files as well
+ls -al	Lists files and directories with detailed information like permissions,size, owner, etc.
+cd or cd ~	Navigate to HOME directory
+cd ..	Move one level up
+cd	To change to a particular directory
+cd /	Move to the root directory
+cat > filename	Creates a new file
+cat filename	Displays the file content
