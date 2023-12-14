@@ -1,0 +1,50 @@
+What is Jenkins?
+Jenkins is an open-source automation server used for building, testing, and deploying software applications. It is a popular tool among developers and DevOps teams for automating software development processes, such as continuous integration and continuous delivery (CI/CD).
+
+Why we used Jenkins?
+Jenkins is used to automating software development processes, such as continuous integration and continuous delivery (CI/CD), which helps to save time, reduce errors, streamline development processes, and ensure that applications are deployed quickly and reliably.
+
+Advantages of Jenkins
+Continuous Integration: Jenkins can be used to perform continuous integration, which means that it can automatically build, test, and deploy code changes as soon as they are committed to the code repository. This helps to detect and fix errors early in the development process.
+Extensibility: Jenkins has a large number of plugins that can be used to extend its functionality. These plugins can be used to integrate Jenkins with other tools and services, such as GitHub, AWS, and Docker.
+Easy Configuration: Jenkins has a simple and easy-to-use web-based interface that allows users to configure and manage their build and deployment processes.
+Scalability: Jenkins can be easily scaled up or down to accommodate changing requirements. It can be run on a single machine or distributed across multiple machines to handle large and complex projects.
+Open Source: Jenkins is an open-source tool, which means that it is free to use and can be customized to meet specific requirements.
+Community Support: Jenkins has a large and active community of users and developers who contribute to its development and provide support to users. This community provides access to a wealth of knowledge and resources that can be used to solve problems and learn new skills.
+
+Disadvantages of Jenkins
+All plug-ins are not compatible with the declarative pipeline syntax.
+Jenkins has many plug-ins in its library, but it seems like they are not maintained by the developer team from time to time. This is when it becomes very important that whatever plug-ins you are going to use; are getting a regular update or not.
+Lots of plug-ins have a problem with the updating process.
+It is dependent on plug-ins; sometimes, you can't find even basic things without plug-ins.
+Jenkins UI is not user-friendly in comparison to current UI Technologies. It cannot be very clear for the first-time user.
+Managing of Jenkins dashboard is hard when we have too many jobs to be executed.
+
+What is a pipeline?
+The pipeline is like a step-by-step process to doing anything.
+the pipeline is used the process is called first come first served(FCFS).
+
+What is CI/CD?
+CICD stands for continuous integration continuous delivery or deployment.
+CI/CD is not a tool it is a methodology.
+It is a methodology of SDLC(software development life-cycle)
+This is the process of developing any software The advantage we have with this process is that things are automated. If there is any mistake, it will be caught in advance. we don't have to go any further.
+
+What is CI/CD pipeline?
+CI/CD (Continuous Integration/Continuous Deployment) pipeline is a set of automated processes that enable developers to quickly and efficiently build, test, and deploy their software applications.
+The pipeline typically consists of several stages, including:
+Code changes are made and pushed to a version control system, like GitHub.
+A build server automatically fetches the code, compiles it, and packages it into a deployable artefact.
+Automated tests are run against the artefact to ensure it meets the quality standards set by the development team.
+If the tests pass, the artefact is deployed to a staging environment for further testing.
+Once the staging tests pass, the artefact is deployed to production.
+By automating these processes, developers can catch errors early in the development cycle, reduce the time it takes to deliver software updates and ensure a higher level of quality in the final product.
+
+Why CI/CD is used? why it is popular in the market?
+CI/CD is used for several reasons:
+Faster delivery of software updates: With CI/CD, developers can quickly and easily push out updates to their applications, reducing the time it takes to deliver new features or fix bugs.
+Improved software quality: By running automated tests at every stage of the pipeline, developers can catch errors early in the development cycle, reducing the likelihood of bugs and issues making it to production.
+Increased efficiency: Automation reduces the need for manual tasks, freeing up developers' time to focus on more high-value tasks.
+Better collaboration: CI/CD encourages collaboration between developers, testers, and operations teams, enabling faster feedback loops and better communication.
+CI/CD is popular in the market because it enables companies to deliver software updates faster, with higher quality, and at a lower cost. This, in turn, helps businesses stay competitive and respond quickly to changing market conditions. Additionally, as software becomes an increasingly critical part of many businesses, the need for a reliable and efficient development pipeline has only grown, making CI/CD an essential tool for modern software development.
+
